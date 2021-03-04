@@ -1,0 +1,104 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Balsamiq Sans';
+  /* CSS reset */
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/46024/pexels-photo-46024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-color: #cccccc;
+}
+
+#banner {
+  background-color: darkcyan;
+  border: solid black;
+  width: 100%; 
+}
+
+nav a {
+  color: white;
+  padding: 25px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#navg {
+  align-items: center;
+}
+
+#donate {
+  background-color: white;
+  color: blueviolet;
+  border: solid blueviolet;
+  border-radius: 80px;
+  padding: 5px;
+}
+
+
+.petlisting {
+  background-color: deepskyblue;
+  display: flex;
+  align-items: center; 
+}
+
+
+#Pet {
+  border: solid black;
+}
+
+#location {
+  border: solid black;
+}
+
+#bestfriend {
+  background-color: blueviolet;
+  border: solid black;
+  border-style: groove;
+}
+
+#friend {
+  color: white;
+  padding-left: 30px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .col-6 {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  a {
+    display: block;
+  }
+  #navg {
+    height: 270px;
+  }
+}
